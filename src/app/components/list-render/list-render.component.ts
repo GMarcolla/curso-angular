@@ -20,7 +20,7 @@ export class ListRenderComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  showAge(animal: Animal) {
+  showAge(animal: Animal): void {
     this.animalDetails = `O pet ${animal.name} tem ${animal.age} anos de idade`;
   }
 }
